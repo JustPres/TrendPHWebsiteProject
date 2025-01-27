@@ -320,9 +320,12 @@
   transform: scale(1.2);
 }
 
-.developer-info {
-  text-align: center;
-}
+ .copyright {
+  text-align: right;
+  color: #666;
+  font-size: 0.9rem;
+  margin-right: 35px;
+ }
 
 .developer-info a {
   color: var(--primary);
