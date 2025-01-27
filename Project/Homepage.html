@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrendPH | Modern Blog</title>
+  <link rel="stylesheet" href="HomePageStyle.css">
+  <link rel="icon" type="image/x-icon" href="imgsss/icons8-news-softteal-16.ico">
+</head>
+<body>
+    <!-- Blur Overlay & Modal -->
+<div class="blur-overlay" id="blurOverlay"></div>
+<div class="modal" id="modal">
+  <button class="close-btn" id="closeBtn">&times;</button>
+  <div class="modal-content" id="modalContent"></div>
+</div>
+  <header class="glass-header">
+    <div class="header-content">
+      <h1>TrendPH<span class="gradient-text">✹</span></h1>
+      <div class="theme-switch">
+        <button id="themeToggle">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Trend Cards -->
+    <div class="trends-grid" id="trendsGrid"></div>
+  </main>
+    
+
+  <script src="HomePageScript.js"></script>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <!-- Social Media Links -->
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <img src="imgsss/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+          <img src="imgsss/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <img src="imgsss/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://github.com/JustPres" target="_blank" aria-label="GitHub">
+          <img src="imgsss/github.png"alt="GitHub">
+        </a>
+      </div>
+  
+      <!-- Developer Information -->
+      <div class="developer-info">
+        <p>Developed by <strong>Justine Lopez</strong></p>
+        <p>Contact: <a href="mailto:your.email@example.com">justine.lopez@sdca.edu.ph</a></p>
+      </div>
+  
+      <!-- Additional Links -->
+      <div class="footer-links">
+        <a href="/about">About</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 TrendPH. All rights reserved.</p>
+      </div>
+      <button id="backToTop" class="back-to-top">↑</button>
+    </div>
+  </footer>
+</body>
+</html>
