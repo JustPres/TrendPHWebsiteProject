@@ -1,0 +1,37 @@
+{
+    "title": "The Impact of AI on Healthcare",
+    "author": "John Doe",
+    "date": "2023-10-05",
+    "content": {
+        "introduction": "Artificial Intelligence (AI) is revolutionizing the healthcare industry...",
+        "body": [
+            {
+                "sectionTitle": "AI in Diagnostics",
+                "sectionContent": "AI algorithms are being used to improve diagnostic accuracy..."
+            },
+            {
+                "sectionTitle": "AI in Treatment",
+                "sectionContent": "AI is helping to personalize treatment plans for patients..."
+            },
+            {
+                "sectionTitle": "Challenges and Ethical Considerations",
+                "sectionContent": "Despite its potential, AI in healthcare faces several challenges..."
+            }
+        ],
+        "conclusion": "The future of AI in healthcare is promising, but it requires careful consideration..."
+    },
+    "references": [
+        {
+            "title": "AI in Healthcare: Opportunities and Challenges",
+            "author": "Jane Smith",
+            "publication": "Healthcare Journal",
+            "year": 2022
+        },
+        {
+            "title": "The Role of AI in Modern Medicine",
+            "author": "Emily Johnson",
+            "publication": "Medical Innovations",
+            "year": 2021
+        }
+    ]
+}
